@@ -5,12 +5,118 @@
     </div>
     <p>Espere por favor</p>
   </div>
-  <div *ngIf="!_productosService.cargando" class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4"><a *ngFor="let producto of _productosService.productos"
-      [routerLink]="['/item',producto.cod]" class="wow wow_fadeIn rk-item ae-masonry__item"><img
-        src="assets/productos/{{producto.url}}.jpg" alt="">
+  <h1>Demos</h1>
+  <div *ngIf="!_productosService.cargando" class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4"><a
+      *ngFor="let producto of _productosService.productos" [routerLink]="['/item',producto.cod]"
+      class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/productos/{{producto.url}}.jpg" alt="">
       <div class="item-meta">
         <h2>{{producto.titulo}}</h2>
         <p>{{producto.categoria}}</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/demos/qr.gif" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/demos/user.gif" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/demos/alcamovie.gif" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+  </div>
+  <h1>Certificados</h1>
+  <div *ngIf="!_productosService.cargando" class="ae-masonry ae-masonry-md-2 ae-masonry-xl-4">
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/platzi-intro-ia.png" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-android.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-angular-html.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-chatbot.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-criptografia.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-docker.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-flutter.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-hacking-metasploit.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-html.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-liderazgo.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-linux.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-sql.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-tienda-wordpress.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
+      </div>
+    </a>
+    <a class="wow wow_fadeIn rk-item ae-masonry__item"><img src="assets/certs/udemy-webtools.jpg" alt="">
+      <div class="item-meta">
+        <h2>producto.titulo</h2>
+        <p>producto.categoria</p>
       </div>
     </a>
   </div>
